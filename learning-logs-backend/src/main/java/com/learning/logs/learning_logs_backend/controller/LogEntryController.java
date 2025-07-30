@@ -15,7 +15,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/logs") // Base path for all endpoints in this controller
-@CrossOrigin(origins = "http://localhost:3000") // Allows requests from the React dev server
+@CrossOrigin(origins = "https://learning-logs-pi.vercel.app/") // Allows requests from the React dev server
 public class LogEntryController {
 
     @Autowired
