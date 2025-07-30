@@ -5,7 +5,7 @@ import LogList from './components/LogList';
 import Dashboard from './components/Dashboard';
 
 // The base URL for your Spring Boot backend API.
-const API_URL = 'http://localhost:8080/api/logs';
+const API_URL = 'https://learninglogs-7c1y.onrender.com/api/logs';
 
 function App() {
   // State to hold the list of log entries.
